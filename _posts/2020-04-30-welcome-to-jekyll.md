@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Приветствие из XXI века
+categories: blog
 ---
 
 Это тестовое сообщение, созданное из программы *VS Code*.  
