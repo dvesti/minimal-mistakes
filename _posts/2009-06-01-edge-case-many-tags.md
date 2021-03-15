@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Edge Case: Many Tags"
 categories:
   - Edge Case
