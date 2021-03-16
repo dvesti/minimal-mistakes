@@ -1,4 +1,4 @@
-# [Dvesti] -- My Site With Minimal Mistakes Jekyll theme](https://dvesti.github.io/minimal-mistakes/)
+# [Dvesti -- My Site With Minimal Mistakes Jekyll theme](https://dvesti.github.io/minimal-mistakes/)
 
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
