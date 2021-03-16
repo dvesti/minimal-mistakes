@@ -5,12 +5,13 @@ date: 2021-03-14T11:39:01+02:00
 last_modified_at: 
 tagline: "Доктор Аркадий Попов о вакцине Спутник"
 header:
-  overlay_image: https://g1.nh.ee/images/pix/1000x465/jsztb8Wbntw/10jpg-92832081.jpg
-  og_image: https://g1.nh.ee/images/pix/1000x465/jsztb8Wbntw/10jpg-92832081.jpg
-  caption: "Photo credit: [**Rus.Delfi.ee/**](https://rus.delfi.ee/)"
   actions:
     - label: "Подробнее"
       url: "https://rus.delfi.ee/daily/estonia/video-popov-obratilsya-k-tem-kto-zhdet-poyavleniya-v-estonii-rossijskoj-vakciny-sputnik?id=92832009"
+  overlay_image: https://g1.nh.ee/images/pix/1000x465/jsztb8Wbntw/10jpg-92832081.jpg
+  og_image: https://g1.nh.ee/images/pix/1000x465/jsztb8Wbntw/10jpg-92832081.jpg
+  overlay_filter: 0.3 # same as adding an opacity of 0.5 to a black backgrou
+  caption: "Photo credit: [**Rus.Delfi.ee**](https://rus.delfi.ee/)"
  # actions:
  #   - label: "Call to action 1"
  #     url: "https://github.com"
