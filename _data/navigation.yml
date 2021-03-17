@@ -13,7 +13,7 @@ main:
   - title: "О сайте"
     url: /about/ 
   - title: "docs"
-    url: https://dvesti.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /docs/
   - 
 #  - title: "Sample Collections"
 #    url: /collection-archive/
