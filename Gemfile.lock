@@ -39,6 +39,7 @@ GEM
     concurrent-ruby (1.1.8)
     dnsruby (1.61.5)
       simpleidn (~> 0.1)
+    dotenv (2.7.6)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -284,6 +285,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  dotenv
   eventmachine (= 1.2.7)!
   github-pages (~> 212)
   jekyll-feed (~> 0.15.1)
