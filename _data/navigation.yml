@@ -13,7 +13,7 @@ main:
   - title: "О сайте"
     url: /about/ 
   - title: "docs"
-    url: /docs/
+    url: /docs/quick-start-guide/
   - 
 #  - title: "Sample Collections"
 #    url: /collection-archive/
