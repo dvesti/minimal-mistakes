@@ -11,7 +11,10 @@ main:
   - title: "Архив"
     url: /year-archive/
   - title: "О сайте"
-    url: /about/  
+    url: /about/ 
+  - title: "docs"
+    url: https://dvesti.github.io/minimal-mistakes/docs/quick-start-guide/
+  - 
 #  - title: "Sample Collections"
 #    url: /collection-archive/
 #  - title: "Sitemap"
