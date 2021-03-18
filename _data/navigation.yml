@@ -1,43 +1,38 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
 # main links
 main:
-#  - title: "Quick-Start Guide"
-#    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Главная"
-    url: /
-  - title: "Категории"
-    url: /categories/
-  - title: "Тэги"
-    url: /tags/
-  - title: "Архив"
-    url: /year-archive/
-  - title: "О сайте"
-    url: /about/ 
   - title: "Quick-Start Guide"
-    url: https://dvesti.github.io/minimal-mistakes/docs/quick-start-guide/
-  - 
-#  - title: "Sample Collections"
-#    url: /collection-archive/
-#  - title: "Sitemap"
-#    url: /sitemap/
-#  - title: "Blogs"
-#    url: /Blogs/
+    url: /docs/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "Sample Posts"
+    url: /year-archive/
+  - title: "Sample Collections"
+    url: /collection-archive/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
 
-#about-me:
-#  - title: "About me"
-#    icon: "fas fa-info-circle"
-#    url: /about/
-#    children:
-#      - title: "Work experience"
-#        url: /about/work-experience/
-#      - title: "Accomplishments"
-#       # url: /about/accomplishments/
-#      - title: "Suggested books"
-#        url: /about/books/
-#  - title: "Resume"
-#    icon: "far fa-fw fa-file-pdf"
-#    url: "/assets/files/resume-renato-golia.pdf"
 
-    # documentation links
+# documentation links
 docs:
   - title: Getting Started
     children:
@@ -136,11 +131,4 @@ sidebar-sample:
         url: /
       - title: "Child Page D2"
         url: /
-
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
+        
