@@ -240,6 +240,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-category-archive-plugin
+ # - jekyll-archives
  
 # mimic GitHub Pages with --safe
 whitelist:
@@ -308,3 +310,9 @@ defaults:
 #    permalink: /:collection/:path/
 #
 github: [metadata]
+
+#jekyll-archives:
+#  enabled: all
+#  layout: archive
+#  permalinks:
+#    category: '/category/:name/'
