@@ -1,19 +1,40 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
 # main links
 main:
-#  - title: "Quick-Start Guide"
-#    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
   - title: "Главная"
     url: /
   - title: "Категории"
-    url: /categories/
+    url: /category/
   - title: "Тэги"
     url: /tags/
   - title: "Архив"
     url: /year-archive/
+  - title: "Sample Collections"
+    url: /collection-archive/
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
   - title: "О сайте"
     url: /about/ 
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+
   - 
 #  - title: "Sample Collections"
 #    url: /collection-archive/
@@ -137,10 +158,3 @@ sidebar-sample:
       - title: "Child Page D2"
         url: /
 
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single

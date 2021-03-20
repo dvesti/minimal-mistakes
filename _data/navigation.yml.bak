@@ -5,15 +5,15 @@ main:
   - title: "Главная"
     url: /
   - title: "Категории"
-    url: /categories/
+    url: /category/
   - title: "Тэги"
     url: /tags/
   - title: "Архив"
     url: /year-archive/
   - title: "О сайте"
     url: /about/ 
-  - title: "Quick-Start Guide"
-    url: https://dvesti.github.io/minimal-mistakes/docs/quick-start-guide/
+  #- title: "Quick-Start Guide"
+  #  url: /docs/quick-start-guide/
   - 
 #  - title: "Sample Collections"
 #    url: /collection-archive/
