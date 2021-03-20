@@ -99,10 +99,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://twitter.com/Prorab"
-    - "https://www.facebook.com/vladimir.dmitrijev.9"
-    - "https://vk.com/dmitrijev"
-    - "https://dvesti.wordpress.com"
+
 
 # Analytics
 analytics:
@@ -258,7 +255,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
- # - jekyll-slugify-categories 0.1.1
+  - jekyll-slugify-categories 0.1.1
 
 # Archives
 #  Type
@@ -276,7 +273,7 @@ whitelist:
 # tag_archive:
 #  type: liquid
 #  path: /tags/
-# category_archive:
+ category_archive:
   type: jekyll-archives
   path: /category/
 tag_archive:
