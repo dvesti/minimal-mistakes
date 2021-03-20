@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 # gem "jekyll", "= 4.2.0", github: "jekyll/jekyll"
 # gem "github-pages", group: :jekyll_plugins
-gem "github-pages", "~> 212", group: :jekyll_plugins
+gem "github-pages", "~> 213", group: :jekyll_plugins
 
 group :jekyll_plugins do
 
@@ -27,6 +27,9 @@ group :jekyll_plugins do
   # gem "jekyll-slugify-categories"
 
   gem 'dotenv'
+
+  gem "i18n", "0.9.5"
+
 end
 
 

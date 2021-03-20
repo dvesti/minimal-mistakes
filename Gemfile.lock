@@ -55,7 +55,7 @@ GEM
     ffi (1.15.0-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
-    github-pages (212)
+    github-pages (213)
       github-pages-health-check (= 1.17.0)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
@@ -71,7 +71,7 @@ GEM
       jekyll-readme-index (= 0.3.0)
       jekyll-redirect-from (= 0.16.0)
       jekyll-relative-links (= 0.6.1)
-      jekyll-remote-theme (= 0.4.2)
+      jekyll-remote-theme (= 0.4.3)
       jekyll-sass-converter (= 1.5.2)
       jekyll-seo-tag (= 2.7.1)
       jekyll-sitemap (= 1.4.0)
@@ -159,7 +159,7 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-relative-links (0.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-remote-theme (0.4.2)
+    jekyll-remote-theme (0.4.3)
       addressable (~> 2.0)
       jekyll (>= 3.5, < 5.0)
       jekyll-sass-converter (>= 1.0, <= 3.0.0, != 2.0.0)
@@ -278,6 +278,7 @@ GEM
     unf_ext (0.0.7.7)
     unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
+    wdm (0.1.1)
     zeitwerk (2.4.2)
 
 PLATFORMS
@@ -287,7 +288,8 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   eventmachine (= 1.2.7)!
-  github-pages (~> 212)
+  github-pages (~> 213)
+  i18n (= 0.9.5)
   jekyll-feed (~> 0.15.1)
   jekyll-gist (~> 1.5)
   jekyll-include-cache (~> 0.2.1)
@@ -295,6 +297,7 @@ DEPENDENCIES
   jekyll-sitemap (~> 1.4.0)
   minimal-mistakes-jekyll!
   thor
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.2.14
