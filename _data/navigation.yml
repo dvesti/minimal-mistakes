@@ -3,7 +3,7 @@ main:
   - title: "Главная"
     url: /
   - title: "Категории"
-    url: /category/
+    url: /categories/
   - title: "Тэги"
     url: /tags/
   - title: "Архив"
